@@ -7,6 +7,11 @@ verify_ssl = true
 
 [packages]
 httpcore = {editable = true,path = "."}
+databases = "*"
+sanic = "*"
+secure = "*"
+environs = "*"
+sanic-envconfig = "*"
 
 [requires]
 python_version = "3.7"
