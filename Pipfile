@@ -12,6 +12,7 @@ sanic = "*"
 secure = "*"
 environs = "*"
 sanic-envconfig = "*"
+asyncpg = "*"
 
 [requires]
 python_version = "3.7"
