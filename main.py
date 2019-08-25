@@ -9,6 +9,8 @@ from app.controller.user_controller import setup_routes
 
 app = Sanic(__name__)
 
+setup_routes(app)
+
 def setup_database():
     app.db = Database(app.config.DB_URL)
 
@@ -26,7 +28,4 @@ if __name__ == "__main__":
 
     app.config.from_object(Settings)
     setup_database()
-    setup_routes(app)
-
-
     app.run(host="0.0.0.0", port=8000)
