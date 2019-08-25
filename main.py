@@ -5,7 +5,7 @@ from environs import Env
 from sanic.response import json
 
 from app.config.dev import Settings
-from app.controller.user_controller import setup_routes
+from app.routes.api.user import setup_routes
 
 app = Sanic(__name__)
 
