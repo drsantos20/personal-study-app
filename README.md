@@ -1,10 +1,10 @@
 # Study APP
-Study App Sanic API (Assync)
+Study App Sanic API (Async)
 
 ## Build With
 
-* [Python 3.7>](https://docs.python.org/3/library/asyncio.html) - Especially the assync library from Python 3
-* [Sanic](https://sanic.readthedocs.io/en/latest/) - Sanic assync python web framework
+* [Python 3.7>](https://docs.python.org/3/library/asyncio.html) - Especially the async library from Python 3
+* [Sanic](https://sanic.readthedocs.io/en/latest/) - Sanic async python web framework
 * [SQLAlchemy Core](https://docs.sqlalchemy.org/en/13/core/) - SQLAlchemy Core
 * [SQLAlchemy Migrate](https://sqlalchemy-migrate.readthedocs.io/en/latest/index.html) - SQLAlchemy Migrate (schema change management)
 
